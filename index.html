@@ -155,6 +155,86 @@
         </div>
       </div>
 
+      <!-- RESUME -->
+      <div id="resume" class="collapse">
+        <div class="card card-body bg-success text-white py-5">
+          <h2>My Resume</h2>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+            expedita.
+          </p>
+        </div>
+
+        <div class="card card-body py-5">
+          <h3>Where Have I Worked?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
+            temporibus iste nam nesciunt nostrum optio.
+          </p>
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">DevMasters</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, doloremque!
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Position: Full Stack Developer
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Phone: (702) 444 4444
+                </p>
+              </div>
+
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2015 - Current</h6>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">123Designs</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, doloremque!
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Position: Web Designer
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Phone: (702) 555 5555
+                </p>
+              </div>
+
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2012 - 2105</h6>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">WebDevPros</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, doloremque!
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Position: Web Designer
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Phone: (702) 666 6666
+                </p>
+              </div>
+
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2009 - 2012</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- FOOTER -->
       <footer id="main-footer" class="p-5 bg-dark text-white">
         <div class="row">
@@ -189,8 +269,9 @@
     ></script>
 
     <script>
-      // Get the current year for the copyright
-      $('#year').text(new Date().getFullYear());
+      $('.port-item').click(function() {
+        $('.collapse').collapse('hide');
+      });
     </script>
   </body>
 </html>
